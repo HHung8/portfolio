@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "@/app/components/bodyPage/body.module.css";
 
-const BodyPage = () => {
+const Body = () => {
   return (
     <div className={styles.body}>
       <div className={styles.bodyLeft}>
@@ -186,4 +186,4 @@ const BodyPage = () => {
   );
 };
 
-export default BodyPage;
+export default Body;

@@ -2,9 +2,8 @@ import styles from "@/app/components/homePage/home.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import ThemeToggle from "../themeColor/ThemeToggle";
-import BodyPage from "../bodyPage/bodyPage";
-import Language from "../changeLangue/Language";
-// import { Image } from "@nextui-org/react";
+import Body from "../bodyPage/Body";
+
 const Page = () => {
   return (
     <nav>
@@ -35,7 +34,7 @@ const Page = () => {
           <ThemeToggle />
         </div>
       </div>
-      <BodyPage />
+      <Body />
     </nav>
   );
 };
