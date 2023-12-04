@@ -1,0 +1,33 @@
+.body {
+    display: flex;
+    justify-content: center;
+    margin: 0 20%;
+}
+
+.bodyLeft {
+    width: 300px;
+}
+.bodyRight {
+    margin-left: 40px;
+}   
+.text {
+    color: #f78d37;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.backGround {
+    box-shadow: -3px 5px 24px 3px rgba(0, 0, 219, 0.2);
+    background-color: #7a777733;
+    border-radius: 7px;
+    padding: 14px;
+    margin: 14px 0;
+}
+
+.demoCode {
+    display: flex;
+    margin-right: 20px;
+}
